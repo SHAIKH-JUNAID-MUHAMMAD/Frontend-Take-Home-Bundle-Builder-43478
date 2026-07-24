@@ -1,0 +1,128 @@
+{
+  "products": [
+    {
+      "id": "cam-v4",
+      "category": "Choose your cameras",
+      "title": "Wyze Cam v4",
+      "productImageKey": "P1",
+      "desc": "The clearest Wyze Cam ever made.",
+      "variants": [
+        { "title": "White", "imageKey": "P1V1" },
+        { "title": "Grey", "imageKey": "P1V2" },
+        { "title": "Black", "imageKey": "P1V3" }
+      ],
+      "price": 35.98,
+      "newPrice": 27.98,
+      "save": 22
+    },
+    {
+      "id": "cam-pan-v3",
+      "category": "Choose your cameras",
+      "title": "Wyze Cam Pan v3",
+      "productImageKey": "P2",
+      "desc": "360° pan and 180° tilt security camera.",
+      "variants": [
+        { "title": "White", "imageKey": "P2V1" },
+        { "title": "Black", "imageKey": "P2V2" }
+      ],
+      "price": 39.98,
+      "newPrice": 34.98,
+      "save": 12
+    },
+    {
+      "id": "floodlight-v2",
+      "category": "Choose your cameras",
+      "title": "Wyze Cam Floodlight v2",
+      "productImageKey": "P3",
+      "desc": "2K floodlight camera with a 160° wide-angle view for your garage.",
+      "variants": [
+        { "title": "White", "imageKey": "P3V1" },
+        { "title": "Black", "imageKey": "P3V2" }
+      ],
+      "price": 89.98,
+      "newPrice": 69.98,
+      "save": 22
+    },
+    {
+      "id": "duo-doorbell",
+      "category": "Choose your cameras",
+      "title": "Wyze Duo Cam Doorbell",
+      "productImageKey": "P4",
+      "desc": "Two cameras. Two views. Double the porch protection.",
+      "variants": [],
+      "price": 69.98,
+      "newPrice": 69.98,
+      "save": 0
+    },
+    {
+      "id": "battery-cam-pro",
+      "category": "Choose your cameras",
+      "title": "Wyze Battery Cam Pro",
+      "productImageKey": "P5",
+      "desc": "Protect anywhere. See everything in 2.5K HDR. No power outlet or electrician needed.",
+      "variants": [
+        { "title": "White", "imageKey": "P5V1" },
+        { "title": "Black", "imageKey": "P5V2" }
+      ],
+      "price": 89.98,
+      "newPrice": 89.98,
+      "save": 0
+    },
+    {
+      "id": "plan-cam-unlimited",
+      "category": "Choose your plan",
+      "title": "Cam Unlimited",
+      "productImageKey": "P9L",
+      "desc": "Unlimited cloud storage for every camera on your account.",
+      "variants": [],
+      "isSubscription": true,
+      "billingOptions": [
+        { "id": "monthly", "label": "Per Month", "price": 12.99, "newPrice": 9.99 },
+        { "id": "yearly", "label": "Per Year", "price": 129.99, "newPrice": 99.99 }
+      ]
+    },
+    {
+      "id": "sensor-motion",
+      "category": "Choose your sensors",
+      "title": "Wyze Sense Motion Sensor",
+      "productImageKey": "P6",
+      "desc": "Detects motion and triggers your cameras and alerts instantly.",
+      "variants": [],
+      "price": 29.99,
+      "newPrice": 29.99,
+      "save": 0
+    },
+    {
+      "id": "sensor-hub",
+      "category": "Choose your sensors",
+      "title": "Wyze Sense Hub (Required)",
+      "productImageKey": "P7",
+      "desc": "Connects all your Wyze Sense sensors to your home network.",
+      "variants": [],
+      "price": 29.92,
+      "newPrice": 29.92,
+      "save": 0
+    },
+    {
+      "id": "microsd-256",
+      "category": "Add extra protection",
+      "title": "Wyze MicroSD Card (256GB)",
+      "productImageKey": "P8",
+      "desc": "Local backup storage so your footage is never lost.",
+      "variants": [],
+      "price": 20.98,
+      "newPrice": 20.98,
+      "save": 0
+    }
+  ],
+  "initialQuantities": {
+    "cam-v4::0": 1,
+    "cam-pan-v3::0": 2,
+    "sensor-motion::base": 2,
+    "sensor-hub::base": 1,
+    "microsd-256::base": 2
+  },
+  "initialBilling": {
+    "plan-cam-unlimited": "monthly"
+  }
+}
